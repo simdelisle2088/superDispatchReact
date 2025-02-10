@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin infinite 20s linear;
+  }
+}
+.css-1mh4cpl-MuiPaper-root-MuiAccordion-root::before {
+  display: none !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.css-1env1m9::before {
+  display: none !important;
+}
+.appContainer .css-mzavur-MuiContainer-root {
+  max-width: 700px;
+}
+.App-link {
+  color: #61dafb;
+}
+.box_stats span {
+  color: var(--h1);
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root .appContainer {
+  height: 100% !important;
+}
+
+:root {
+  --h1: #70008b;
+  --light-blue: #cde7ff;
+  --hover-blue: #0183fc;
+  --blue: #0248c0;
+  --dark-blue: #003ca6;
+  --red: #d30e00;
+  --date: #c2005a;
+  --delivered: rgba(146, 146, 146, 0.342);
+  --text-delivered: rgba(48, 47, 47, 0.5);
+}
+
+.table-cell-commis span {
+  padding-right: 60px;
+}
+.driver_count_link a {
+  text-decoration: none;
+  background-color: var(--blue);
+  padding: 1rem 1.5rem;
+  border-radius: 9px;
+  color: #fff;
+}
+.driver_count_link a:hover {
+  background-color: var(--hover-blue);
+}
